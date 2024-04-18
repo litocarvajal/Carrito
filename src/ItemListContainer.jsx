@@ -1,6 +1,6 @@
 import ItemCount from "./ItemCount"
 
-const ItemListContainer = () =>{
+const ItemListContainer = () => {
     const stock = 10;
 
     const onAdd = (quantity) => {
