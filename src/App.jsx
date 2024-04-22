@@ -1,5 +1,6 @@
-import Menu from './Menu'
-import ItemListContainer from './ItemListContainer';
+import NavBar from "./NavBar"
+import ItemListContainer from './ItemListContainer'
+import { Navbar } from 'react-bootstrap';
 
 
 
@@ -8,8 +9,8 @@ function App() {
 
   return (
     <div>
-      <h1>Mi Aplicación</h1>
-      <Menu />
+      <h1>Todo Shop</h1>
+      <NavBar />
       <ItemListContainer/>
     </div>
 

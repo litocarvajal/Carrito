@@ -9,9 +9,15 @@
 }
 
 .nav .carrito{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+
     padding: 10px;
     color: #fff;
 }
+
 
 .nav .menu{
     padding: 10px;

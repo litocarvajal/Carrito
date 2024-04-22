@@ -1,7 +1,8 @@
 import './menu.css';
+import CartWidget from "./CartWidget";
 
 
-const Menu = () => {
+const NavBar = () => {
     return (
         <div className='nav'>
             <div className="menu">
@@ -11,12 +12,10 @@ const Menu = () => {
                     <li><a href="#">Servicios</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
-            </div>
-            <div className='carrito'>
-                <i class="bi bi-cart2"></i>
-            </div>
+        </div>
+        <CartWidget />
         </div>
     )
 }
 
-export default Menu;
+export default NavBar;
