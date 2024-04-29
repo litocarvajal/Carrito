@@ -2,8 +2,6 @@ import NavBar from "./NavBar"
 import ItemListContainer from './ItemListContainer'
 
 
-
-
 function App() {
 
   return (
